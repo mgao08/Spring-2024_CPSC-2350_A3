@@ -5,19 +5,104 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Monica Gao's Portfolio</title>
 
+   <!-- Bootstrap theme -->
    <link rel="stylesheet" href="src/css/sandstone.min.css">
-   <script src="src/js/component.js" defer></script>
+   <script src="src/js/bootstrap.bundle.min.js" defer></script>
+
+   <!-- Font Awesome Icon -->
+   <script src="https://kit.fontawesome.com/d4ee962a28.js" crossorigin="anonymous"></script>
+   
+   <script src="src/js/script.js" defer></script>
+   <link rel="stylesheet" href="src/css/styles.css">
+
+   <!-- Favicon -->
+   <link rel="icon" href="public/favicon.svg">
+
 </head>
+
 <body>
    <div class="container-fluid" id="wrapper">
-      <div id="dummy">
-         <!-- Dummy data -->
+
+      <nav class="navbar navbar-expand-md bg-body-tertiary p-3
+                  border-bottom border-3 border-success" role="navigation">
+
+         <div class='container-fluid'>
+            <a class='navbar-brand' href='index.html'>Monica's Portfolio</a>
+            <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
+               <span class='navbar-toggler-icon'></span>
+            </button>
+
+            <div class='collapse navbar-collapse' id='navbarCollapse'>
+               <ul class='navbar-nav ms-auto'>
+                  <li class='nav-item'><a class='nav-link' href='#'>Overview</a></li>
+                  <li class='nav-item'><a class='nav-link' href='#'>My Skills</a></li>
+                  <li class='nav-item'><a class='nav-link' href='#'>Experiences</a></li>
+                  <li class='nav-item'><a class='nav-link' href='#'>Education</a></li>
+                  </ul>
+               </div>
+            </div>
+
+      </nav>
+
+      <div class="row" id="overview">  <!-- Overview Section -->
+         <div class="col">
+            <!-- overview text -->
+         </div>
+
+         <div class="col">
+            <!-- overview pic -->
+         </div>
       </div>
 
-      <!-- Navbar goes here -->
-      <hr>
+      <div class="row text-center"> <!-- Divider -->
+         <hr>
+         <i class='fa-solid fa-angles-down'></i>
+      </div>
 
-      <!-- Overview Section goes here -->
+      <div class="row" id="skill"> <!-- Skills Section -->
+         <div class="col">
+            <!-- skill text -->
+         </div>
+      
+         <div class="col">
+            <!-- skill pic -->
+         </div>
+      </div>
+      
+      <div class="row text-center"> <!-- Divider -->
+         <hr>
+         <i class='fa-solid fa-angles-down'></i>
+      </div>
+
+      <div class="row" id="experience"> <!-- Experience Section -->
+         <div class="col">
+            <!-- experience text -->
+         </div>
+      
+         <div class="col">
+            <!-- experience pic -->
+         </div>
+      </div>
+      
+      <div class="row text-center"> <!-- Divider -->
+         <hr>
+         <i class='fa-solid fa-angles-down'></i>
+      </div>
+
+      <div class="row" id="contact"> <!-- Contact Section -->
+         <div class="col">
+            <!-- contact text -->
+         </div>
+      
+         <div class="col">
+            <!-- contact pic -->
+         </div>
+      </div>
+
+
+      <footer class="text-center">
+         <kbd>&copy; Monica Gao 2024. All Rights Reserved. </kbd>
+      </footer>
 
    </div>
 </body>
