@@ -34,7 +34,6 @@ body {
 }
 
 .section {
-   height: 70vh;
    margin-top: 15vh;
 }
 
@@ -48,10 +47,15 @@ body {
 }
 
 img {
-   width: 100vw;
-   margin-top: 10vh;
+   width: 100%;
    display: inline-block;
-   object-fit: cover;
+   overflow: auto;
+   padding-top: 8vh 0 2vh 0;
+}
+
+img:last-of-type {
+   width: 80%;
+   margin: 8vh auto 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -65,7 +69,7 @@ img {
    }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
    .navbar {
       padding-left: 10vw !important;
       padding-right: 10vw !important;
