@@ -1,24 +1,77 @@
 body {
    min-width: 375px;
-}
-
-#wrapper {
-   margin: 0;
-   padding: 0;
+   text-align: center;
 }
 
 .navbar {
+   width: 100%;
+   padding: 0;
+   position: fixed;
+   top: 0;
+}
+
+#wrapper {
+   width: 90vw;
+   margin: auto;
    padding: 0;
 }
 
-@media screen and (min-width: 800px) {
+#divider {
+   position: fixed;
+   bottom: 20px;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.row {
+   width: 90vw;
+   margin: auto;
+}
+
+.col {
+   display: block;
+   width: 100%;
+}
+
+.section {
+   height: 70vh;
+   margin-top: 15vh;
+}
+
+.title {
+   display: inline-block;
+   margin: 50px 0;
+}
+
+.section p {
+   width: 90%;
+}
+
+img {
+   width: 100vw;
+   margin-top: 10vh;
+   display: inline-block;
+   object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
    .navbar {
-      padding: 5%;
+      padding-left: 5vw !important;
+      padding-right: 5vw !important;
+   }
+
+   img {
+      width: 100%;
    }
 }
 
 @media screen and (min-width: 1200px) {
    .navbar {
-      padding: 10%;
+      padding-left: 10vw !important;
+      padding-right: 10vw !important;
+   }
+
+   .row {
+      max-width: 1000px;
    }
 }
