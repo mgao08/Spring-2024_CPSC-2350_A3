@@ -1,3 +1,4 @@
+/** Small Screen Size */
 body {
    min-width: 375px;
    text-align: center;
@@ -34,7 +35,6 @@ body {
 }
 
 .section {
-   height: 70vh;
    margin-top: 15vh;
 }
 
@@ -48,30 +48,57 @@ body {
 }
 
 img {
-   width: 100vw;
-   margin-top: 10vh;
+   width: 100%;
    display: inline-block;
-   object-fit: cover;
+   overflow: auto;
+   padding-top: 8vh 0 2vh 0;
 }
 
+#square-img {
+   width: 80%;
+   padding: 8vh auto 0 auto;
+}
+
+/** Medium Screen Size */
 @media screen and (min-width: 768px) {
    .navbar {
       padding-left: 5vw !important;
       padding-right: 5vw !important;
    }
-
-   img {
-      width: 100%;
-   }
 }
 
-@media screen and (min-width: 1200px) {
+/** Large Screen Size & Up */
+@media screen and (min-width: 992px) {
+   body {
+      text-align: left;
+   }
+
    .navbar {
       padding-left: 10vw !important;
       padding-right: 10vw !important;
    }
 
+   #wrapper {
+      width: 80vw;
+   }
+
    .row {
-      max-width: 1000px;
+      width: 100%;
+   }
+
+   .section {
+      max-width: 1280px;
+      height: 70vh;
+      align-content: center;
+   }
+
+   img {
+      position: relative;
+      align-self: baseline;
+      bottom: -25%;
+   }
+
+   #square-img {
+      right: -15%;
    }
 }
