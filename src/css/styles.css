@@ -1,3 +1,4 @@
+/** Small Screen Size */
 body {
    min-width: 375px;
    text-align: center;
@@ -53,29 +54,51 @@ img {
    padding-top: 8vh 0 2vh 0;
 }
 
-img:last-of-type {
+#square-img {
    width: 80%;
-   margin: 8vh auto 0 auto;
+   padding: 8vh auto 0 auto;
 }
 
+/** Medium Screen Size */
 @media screen and (min-width: 768px) {
    .navbar {
       padding-left: 5vw !important;
       padding-right: 5vw !important;
    }
-
-   img {
-      width: 100%;
-   }
 }
 
+/** Large Screen Size & Up */
 @media screen and (min-width: 992px) {
+   body {
+      text-align: left;
+   }
+
    .navbar {
       padding-left: 10vw !important;
       padding-right: 10vw !important;
    }
 
+   #wrapper {
+      width: 80vw;
+   }
+
    .row {
-      max-width: 1000px;
+      width: 100%;
+   }
+
+   .section {
+      max-width: 1280px;
+      height: 70vh;
+      align-content: center;
+   }
+
+   img {
+      position: relative;
+      align-self: baseline;
+      bottom: -25%;
+   }
+
+   #square-img {
+      right: -15%;
    }
 }
