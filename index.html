@@ -21,81 +21,156 @@
 </head>
 
 <body>
+   <nav class="navbar navbar-expand-md bg-body-tertiary p-3
+                     border-bottom border-3 border-success" role="navigation">
+   
+      <div class='container-fluid'>
+         <a class='navbar-brand' href='index.html'>Monica's Portfolio</a>
+         <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarCollapse'
+            aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+         </button>
+   
+         <div class='collapse navbar-collapse' id='navbarCollapse'>
+            <ul class='navbar-nav ms-auto'>
+               <li class='nav-item'><a class='nav-link' href='#'>Overview</a></li>
+               <li class='nav-item'><a class='nav-link' href='#'>My Skills</a></li>
+               <li class='nav-item'><a class='nav-link' href='#'>Experiences</a></li>
+               <li class='nav-item'><a class='nav-link' href='#'>Education</a></li>
+            </ul>
+         </div>
+      </div>
+   
+   </nav>
+
    <div class="container-fluid" id="wrapper">
 
-      <nav class="navbar navbar-expand-md bg-body-tertiary p-3
-                  border-bottom border-3 border-success" role="navigation">
+      <div class="row text-center" id="divider"> <!-- Divider -->
+         <div class="col col-xs-12">
+            <hr>
+            <i class='fa-solid fa-angles-down'></i>
+         </div>
+      </div>
 
-         <div class='container-fluid'>
-            <a class='navbar-brand' href='index.html'>Monica's Portfolio</a>
-            <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
-               <span class='navbar-toggler-icon'></span>
-            </button>
 
-            <div class='collapse navbar-collapse' id='navbarCollapse'>
-               <ul class='navbar-nav ms-auto'>
-                  <li class='nav-item'><a class='nav-link' href='#'>Overview</a></li>
-                  <li class='nav-item'><a class='nav-link' href='#'>My Skills</a></li>
-                  <li class='nav-item'><a class='nav-link' href='#'>Experiences</a></li>
-                  <li class='nav-item'><a class='nav-link' href='#'>Education</a></li>
-                  </ul>
+      <div class="row section" id="overview">  <!-- Overview Section -->
+         <div class="col col-md-12 col-lg-6">
+            <span class="title h1">HELLO, THIS IS MONICA</span>
+            <p class="fs-5 text-secondary">
+               A student who is currently studying for a Computer Studies Degree.
+               <br><br>
+               I'm looking forwards to become a Web Developer in the future!
+            </p>
+         </div>
+
+         <div class="col col-md-12 col-lg-6">
+            <img src="public/image/Design.jpg">
+         </div>
+      </div>
+      
+
+      <div class="row section" id="skill"> <!-- Skills Section -->
+         <div class="col col-md-12 col-lg-6">
+            <div class="title h1">MY SKILLS</div>
+
+            <div class="row">
+               <div class="row"> <!-- HTML bar -->
+                  <div class="col col-xs-3">
+                     HTML
+                  </div>
+                  <div class="col col-xs-9">
+                     <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                           aria-valuemax="100"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row"> <!-- JS bar -->
+                  <div class="col col-xs-3">
+                     JavaScript
+                  </div>
+                  <div class="col col-xs-9">
+                     <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                           aria-valuemax="100"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row"> <!-- Java bar -->
+                  <div class="col col-xs-3">
+                     Java
+                  </div>
+                  <div class="col col-xs-9">
+                     <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                           aria-valuemax="100"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row"> <!-- C++ bar -->
+                  <div class="col col-xs-3">
+                     C++
+                  </div>
+                  <div class="col col-xs-9">
+                     <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                           aria-valuemax="100"></div>
+                     </div>
+                  </div>
                </div>
             </div>
-
-      </nav>
-
-      <div class="row" id="overview">  <!-- Overview Section -->
-         <div class="col">
-            <!-- overview text -->
-         </div>
-
-         <div class="col">
-            <!-- overview pic -->
-         </div>
-      </div>
-
-      <div class="row text-center"> <!-- Divider -->
-         <hr>
-         <i class='fa-solid fa-angles-down'></i>
-      </div>
-
-      <div class="row" id="skill"> <!-- Skills Section -->
-         <div class="col">
-            <!-- skill text -->
          </div>
       
-         <div class="col">
-            <!-- skill pic -->
+         <div class="col col-md-12 col-lg-6">
+            <img src="public/image/Books.jpg">
          </div>
       </div>
       
-      <div class="row text-center"> <!-- Divider -->
-         <hr>
-         <i class='fa-solid fa-angles-down'></i>
-      </div>
 
-      <div class="row" id="experience"> <!-- Experience Section -->
-         <div class="col">
-            <!-- experience text -->
-         </div>
-      
-         <div class="col">
-            <!-- experience pic -->
-         </div>
-      </div>
-      
-      <div class="row text-center"> <!-- Divider -->
-         <hr>
-         <i class='fa-solid fa-angles-down'></i>
-      </div>
+      <div class="row section" id="experience"> <!-- Experience Section -->
+         <div class="col col-md-12 col-lg-6">
+            <div class="title h1">EDUCATION & WORKING EXPERIENCES</div>
+            
+            <span class="h3">Langara College</span>
+            <ul class="text-secondary">
+               <li>Degree of Computer Studies Diploma</li>
+            </ul>
 
-      <div class="row" id="contact"> <!-- Contact Section -->
-         <div class="col">
-            <!-- contact text -->
+            <span class="h3">Volunteer:</span>
+            <ul class="text-secondary">
+               <li>Teaching assistant of RoboPlanet - A summer camp event for teenagers to learn programming!</li>
+            </ul>
          </div>
       
-         <div class="col">
-            <!-- contact pic -->
+         <div class="col col-md-12 col-lg-6">
+            <img src="public/image/Back-End.jpg">
+         </div>
+      </div>
+      
+
+      <div class="row section" id="contact"> <!-- Contact Section -->
+         <div class="col col-md-12 col-lg-6">
+            <div class="title h1">CONTACT ME</div>
+
+            <div class="container">
+               <button class="btn btn-outline-success">+1 (234) 567 8901</button>
+               <button class="btn btn-outline-success">sampleEmail@gmail.com</button>
+               
+               <hr>
+
+               <div class="h4">Follow Me On:</div>
+               <div class="row">
+                  <div class="col col-xs-1"><i class="fa-brands fa-facebook"></i></div>
+                  <div class="col col-xs-1"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="col col-xs-1"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="col col-xs-9"> <!-- Placeholder --> </div>
+               </div>
+            </div>
+            
+         </div>
+      
+         <div class="col col-md-12 col-lg-6">
+            <img src="public/image/Computer.jpg">
          </div>
       </div>
 
