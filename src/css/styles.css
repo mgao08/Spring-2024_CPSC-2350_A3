@@ -11,6 +11,16 @@ body {
    top: 0;
 }
 
+.nav-link {
+   border-radius: 5px;
+   transition: all 0.3s;
+}
+
+.nav-link:hover {
+   background-color: var(--bs-success);
+   color: var(--bs-light);
+}
+
 #wrapper {
    width: 90vw;
    margin: auto;
@@ -38,6 +48,11 @@ body {
    margin-top: 15vh;
 }
 
+#overview {
+   display: block;
+   height: 2.5vh;    /** Place holder for better styling */
+}
+
 .title {
    display: inline-block;
    margin: 50px 0;
@@ -59,6 +74,25 @@ img {
    padding: 8vh auto 0 auto;
 }
 
+.d-flex {
+   justify-content: center;
+}
+
+.social-media-icon {
+   color: var(--bs-success);
+   transition: all 0.3s;
+}
+
+.social-media-icon:hover {
+   transform: scale(1.25);
+}
+
+hr + a i {    /** scroll down double-arrows */
+   color: var(--bs-secondary);
+   transform: scaleX(1.4);
+}
+
+
 /** Medium Screen Size */
 @media screen and (min-width: 768px) {
    .navbar {
@@ -66,6 +100,7 @@ img {
       padding-right: 5vw !important;
    }
 }
+
 
 /** Large Screen Size & Up */
 @media screen and (min-width: 992px) {
@@ -100,5 +135,9 @@ img {
 
    #square-img {
       right: -15%;
+   }
+
+   .d-flex {
+      justify-content: flex-start;
    }
 }

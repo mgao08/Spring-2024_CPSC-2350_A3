@@ -21,11 +21,12 @@
 </head>
 
 <body>
-   <nav class="navbar navbar-expand-md bg-body-tertiary p-3
+   <!-- Regular nav position -->
+   <!-- <nav class="navbar navbar-expand-md bg-body-tertiary p-3
                      border-bottom border-3 border-success" role="navigation">
    
       <div class='container-fluid'>
-         <a class='navbar-brand' href='index.html'>Monica's Portfolio</a>
+         <a class='navbar-brand' href='index.html'><i class="fa-solid fa-brush"></i>&ensp;Monica's Portfolio</a>
          <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarCollapse'
             aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
             <span class='navbar-toggler-icon'></span>
@@ -33,19 +34,20 @@
    
          <div class='collapse navbar-collapse' id='navbarCollapse'>
             <ul class='navbar-nav ms-auto'>
-               <li class='nav-item'><a class='nav-link' href='#'>Overview</a></li>
-               <li class='nav-item'><a class='nav-link' href='#'>My Skills</a></li>
-               <li class='nav-item'><a class='nav-link' href='#'>Experiences</a></li>
-               <li class='nav-item'><a class='nav-link' href='#'>Education</a></li>
+               <li class='nav-item'><a class='nav-link' href='#overview'>Overview</a></li>
+               <li class='nav-item'><a class='nav-link' href='#skill'>My Skills</a></li>
+               <li class='nav-item'><a class='nav-link' href='#experience'>Experiences</a></li>
+               <li class='nav-item'><a class='nav-link' href='#contact'>Contact Me</a></li>
             </ul>
          </div>
       </div>
    
-   </nav>
+   </nav> -->
 
    <div class="container-fluid" id="wrapper">
 
-      <div class="row section" id="overview">  <!-- Overview Section -->
+      <span id="overview"></span> <!-- locator -->
+      <div class="row section">  <!-- Overview Section -->
          <div class="col-md-12 col-lg-6">
             <div class="title h1">HELLO, THIS IS MONICA</div>
             <div class="fs-5 text-secondary">
@@ -63,12 +65,13 @@
       <div class="row text-center"> <!-- Divider -->
          <div class="col-12">
             <hr>
-            <i class='fa-solid fa-angles-down'></i>
+            <a href="#skill"><i class='fa-solid fa-angles-down'></i></a>
          </div>
       </div>
       
 
-      <div class="row section" id="skill"> <!-- Skills Section -->
+      <span id="skill"></span> <!-- locator -->
+      <div class="row section"> <!-- Skills Section -->
          <div class="col-md-12 col-lg-6"> <!-- Progress bars -->
             <div class="title h1">MY SKILLS</div>
 
@@ -130,12 +133,13 @@
       <div class="row text-center"> <!-- Divider -->
          <div class="col-12">
             <hr>
-            <i class='fa-solid fa-angles-down'></i>
+            <a href="#experience"><i class='fa-solid fa-angles-down'></i></a>
          </div>
       </div>
       
 
-      <div class="row section" id="experience"> <!-- Experience Section -->
+      <span id="experience"></span> <!-- locator -->
+      <div class="row section"> <!-- Experience Section -->
          <div class="col-md-12 col-lg-6">
             <div class="title h1">EDUCATION & WORKING EXPERIENCES</div>
             
@@ -158,35 +162,36 @@
       <div class="row text-center"> <!-- Divider -->
          <div class="col-12">
             <hr>
-            <i class='fa-solid fa-angles-down'></i>
+            <a href="#contact"><i class='fa-solid fa-angles-down'></i></a>
          </div>
       </div>
       
 
-      <div class="row section" id="contact"> <!-- Contact Section -->
+      <span id="contact"></span> <!-- locator -->
+      <div class="row section"> <!-- Contact Section -->
          <div class="col-md-12 col-lg-6">
             <div class="title h1">CONTACT ME</div>
 
             <div class="row gy-2">
                <div class="col-12">
-                  <button class="btn btn-outline-success">
+                  <a class="btn btn-outline-success" href="https://www.whatsapp.com/" target="_blank">
                      <i class="fa-brands fa-whatsapp"></i>&nbsp;+1 (234) 567 8901
-                  </button>
+                  </a>
                </div>
                <div class="col-12">
-                  <button class="btn btn-outline-success">
+                  <a class="btn btn-outline-success" href="https://mail.google.com/" target="_blank">
                      <i class="fa-regular fa-envelope"></i>&nbsp;sampleEmail@gmail.com
-                  </button>
+                  </a>
                </div>
                
                <div class="col-12"><hr></div>
 
                <div class="col-12 h4">Follow Me on:</div>
                <div class="col-12">
-                  <div class="d-flex justify-content-center h1">
-                     <div class="col-2"><i class="fa-brands fa-facebook"></i></div>
-                     <div class="col-2"><i class="fa-brands fa-twitter"></i></div>
-                     <div class="col-2"><i class="fa-brands fa-instagram"></i></div>
+                  <div class="d-flex h1">
+                     <a class="col-2 social-media-icon" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                     <a class="col-2 social-media-icon" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                     <a class="col-2 social-media-icon" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                   </div>
                </div>
             </div>
@@ -205,5 +210,29 @@
       </footer>
 
    </div>
+
+   <!-- Place nav here to prevent it from being overlapped by images -->
+   <nav class="navbar navbar-expand-md bg-body-tertiary p-3
+                        border-bottom border-3 border-success" role="navigation">
+   
+      <div class='container-fluid'>
+         <a class='navbar-brand' href='index.html'><i class="fa-solid fa-brush"></i>&ensp;Monica's Portfolio</a>
+         <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarCollapse'
+            aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+         </button>
+   
+         <div class='collapse navbar-collapse' id='navbarCollapse'>
+            <ul class='navbar-nav ms-auto'>
+               <li class='nav-item'><a class='nav-link' href='#overview'>Overview</a></li>
+               <li class='nav-item'><a class='nav-link' href='#skill'>My Skills</a></li>
+               <li class='nav-item'><a class='nav-link' href='#experience'>Experiences</a></li>
+               <li class='nav-item'><a class='nav-link' href='#contact'>Contact Me</a></li>
+            </ul>
+         </div>
+      </div>
+   
+   </nav>
+
 </body>
 </html>
