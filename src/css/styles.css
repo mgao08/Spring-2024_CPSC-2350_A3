@@ -66,7 +66,7 @@ img {
    width: 100%;
    display: inline-block;
    overflow: auto;
-   padding-top: 8vh 0 2vh 0;
+   padding-bottom: 2vh;
 }
 
 #square-img {
