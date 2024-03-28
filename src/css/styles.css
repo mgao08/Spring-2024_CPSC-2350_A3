@@ -66,7 +66,7 @@ img {
    width: 100%;
    display: inline-block;
    overflow: auto;
-   padding-bottom: 2vh;
+   padding: 6vh 0 3vh 0;
 }
 
 #square-img {
@@ -79,7 +79,8 @@ img {
 }
 
 .social-media-icon {
-   color: var(--bs-success);
+   width: 40px;
+   margin: 10px;
    transition: all 0.3s;
 }
 
@@ -87,9 +88,13 @@ img {
    transform: scale(1.25);
 }
 
-hr + a i {    /** scroll down double-arrows */
-   color: var(--bs-secondary);
+.arrows {    /** scroll down double-arrows */
    transform: scaleX(1.4);
+   width: 20px;
+}
+
+.contactIcons {
+   width: 20px;
 }
 
 
