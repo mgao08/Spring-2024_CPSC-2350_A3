@@ -1,0 +1,12 @@
+{
+   "lang": "en",
+   "name": "Monica's Portfolio",
+   "url": "https://mgao08.github.io/Spring-2024_CPSC-2350_A3/",
+   "icons": [{
+      "src": "../public/icons/favicon.svg",
+      "sizes": "64x64",
+      "type": "svg"
+   }],
+   "display": "fullscreen"
+
+}
