@@ -10,3 +10,12 @@ Brush Favicon from Font Awesome: https://fontawesome.com/icons/brush?f=classic&s
 
 Angles Down Icon from Font Awesome: https://fontawesome.com/icons/angles-down?f=classic&s=solid;
 
+WhatsApp Icon from Font Awesome: https://fontawesome.com/icons/whatsapp?f=brands&s=solid;
+
+Envelope Icon from Font Awesome: https://fontawesome.com/icons/envelope?f=classic&s=regular;
+
+Facebook Icon from Font Awesome: https://fontawesome.com/icons/facebook?f=brands&s=solid;
+
+Twitter Icon from Font Awesome: https://fontawesome.com/icons/twitter?f=brands&s=solid;
+
+Instagram Icon from Font Awesome: https://fontawesome.com/icons/instagram?f=brands&s=solid;
